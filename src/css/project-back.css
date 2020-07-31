@@ -1,0 +1,24 @@
+.p-back{
+    transform: rotateY(180deg);
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+hr{
+    width: 85%;
+    margin: auto;
+}
+.tech-title{
+    padding: 2px;
+    font-size: 1rem;
+    color: rgb(83, 115, 134);
+    font-weight: bold;
+}
+.fa-github-icon{
+    font-size: 1.5rem;
+}
