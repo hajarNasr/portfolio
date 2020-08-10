@@ -22,7 +22,9 @@ export const FaHTMLIcon = ()=>(
     getFontAwesomeIcon(fab.faHtml5, "fa-html ico")
 )
 
-
+export const FaEnvelopeIcon = ()=>(
+    getFontAwesomeIcon(fa.faEnvelope, "ico")
+)
 export const FaFreeCodeCampIcon = ()=>(
     getFontAwesomeIcon(fab.faFreeCodeCamp, "fa-fcc ico")
 )

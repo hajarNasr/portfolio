@@ -1,6 +1,6 @@
 import React from 'react';
 import CloseBtn from './CloseBtn';
-import { FaTwitterIcon } from './FaIcons';
+import { FaEnvelopeIcon } from './FaIcons';
 import './css/about.css';
 
 const About = ()=>{
@@ -21,7 +21,8 @@ const About = ()=>{
                         And learning to code for me is the kind of routine that never gets dull or makes me bored. 
                         Thank you for being here.</p>
                 </div>
-                <a href="https://twitter.com/hjarnasr" target="blank"><FaTwitterIcon/></a>
+                <div className="email"><FaEnvelopeIcon/> hajar-nasr@hotmail.com</div>
+                
                 <CloseBtn
                className = "close-btn about-close-btn"
                section = "about"

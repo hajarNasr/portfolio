@@ -47,6 +47,11 @@
   color: #885e48;
   font-size: 1rem;
 }
+.email{
+  text-align: center;
+  font-size: large;
+  color:  #66553d;
+}
 .fa-twitter-icon{
   display: block;
   margin: auto;
