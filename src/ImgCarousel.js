@@ -3,9 +3,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 const ImgCarousel = ()=>{
-    const fcc1 = require('./images/fcc1.png');
-    const fcc2 = require('./images/fcc2.png');
-    const fcc3 = require('./images/fcc3.jpg');
+    const fcc1 = require('./images/fcc1.png'),
+          fcc2 = require('./images/fcc2.png'),
+          fcc3 = require('./images/fcc3.jpg'),
+          fcc4 = require('./images/fcc4.JPG');
 
     return (
         <Carousel>
@@ -22,7 +23,13 @@ const ImgCarousel = ()=>{
                 <img src= {`${fcc3}`} 
                     alt="Frontend Libraries Certificate"
                 />
+                </div>
+            <div>
+                <img src= {`${fcc4}`} 
+                    alt="Data Visualization Certificate"
+                />
             </div>
+            
         </Carousel>
     );
 
