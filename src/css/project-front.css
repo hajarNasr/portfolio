@@ -8,13 +8,14 @@
 }
 .title{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding:3px;
     color: rgb(83, 115, 134);
     font-weight: bold;
 }
 .desc{
     padding: 2px;
+    text-align: center;
 }
 .demo{
     text-align: center;
@@ -23,6 +24,7 @@
     width: 30%;
     margin: auto;
     border-radius: 15px;
+    margin-top: 10px;
 }
 .demo a{
     text-decoration: none;

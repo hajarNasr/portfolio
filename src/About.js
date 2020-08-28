@@ -4,17 +4,17 @@ import { FaEnvelopeIcon } from './FaIcons';
 import './css/about.css';
 
 const About = ()=>{
-    const photo = require('./images/myface.jpg');
+    const photo = require('./images/cat.jpg');
     return(
        <section className="about-wrapper" 
                 id="about">
             <div className="about-wrapper-inner-wrapper">   
             <div className="about-wrapper_inner">
                 <div className="img-sec"> 
-                     <img src={photo} alt="my face"/> 
+                     <img src={photo} alt="avatar"/> 
                 </div>
                 <div className="bio">
-                    <div>Hajar Nasr</div>
+                    <div></div>
                     <p> Hello! I am Hajar from Egypt and 
                         unlike many people, I like routine. 
                         It keeps me sane. 
