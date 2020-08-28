@@ -8,7 +8,7 @@ const Projects =()=>{
            <Project
                title = "iRecommend-App"
                demoLink="https://irecommend-app.herokuapp.com/"
-               desc = "A web application where users can recommend anything they like to other people."
+               desc = "A project where users can recommend anything they like to other people."
                proID = "1"
                bulitWith=""
                image = "irecommend.JPG"
