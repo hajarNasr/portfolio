@@ -6,7 +6,8 @@ const ImgCarousel = ()=>{
     const fcc1 = require('./images/fcc1.png'),
           fcc2 = require('./images/fcc2.png'),
           fcc3 = require('./images/fcc3.jpg'),
-          fcc4 = require('./images/fcc4.JPG');
+          fcc4 = require('./images/fcc4.JPG'),
+          fcc5 = require("./images/fcc5.JPG");
 
     return (
         <Carousel>
@@ -29,7 +30,11 @@ const ImgCarousel = ()=>{
                     alt="Data Visualization Certificate"
                 />
             </div>
-            
+            <div>
+                <img src= {`${fcc5}`} 
+                    alt="APIs and Microservices Certificate"
+                />
+            </div>
         </Carousel>
     );
 

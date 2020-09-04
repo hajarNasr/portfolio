@@ -86,7 +86,20 @@ const Roads = ()=>{
 
                   <img alt = "django logo"
                        src="https://img.icons8.com/color/48/000000/django.png"/>
+
+                  <img alt="Express logo"
+                       style={{transform: "scale(0.7)"}}
+                       src = "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
+                  /> 
+                  <CompWithToolTip
+                      data="MongoDB/mongoose"
+                      id ="mongoDB"
+                  >
+                  <img alt="mongoDB icon"
+                      src="https://img.icons8.com/color/48/000000/mongodb.png"/>
+                  </CompWithToolTip>    
                 </div>
+                
                 </div> 
                 
             <div className="cerificates">
