@@ -4,7 +4,7 @@ import { FaEnvelopeIcon } from './FaIcons';
 import './css/about.css';
 
 const About = ()=>{
-    const photo = require('./images/cat.jpg');
+    const photo = require('./images/myface.jpg');
     return(
        <section className="about-wrapper" 
                 id="about">
