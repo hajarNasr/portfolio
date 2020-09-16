@@ -5,6 +5,17 @@ import './css/projects.css';
 const Projects =()=>{
     return(
         <div className="projects-wrapper" id="projects">
+         <Project
+               title = "Artistic Zone"
+               demoLink="https://artisticzone.herokuapp.com/"
+               desc = "A small e-commerce app for art and photography."
+               proID = "5"
+               bulitWith=""
+               image = "artisticzone.JPG"
+               github = "https://github.com/hajarNasr/ArtisticZone"
+               frontEnd = {["HTML5 & CSS3", "JavaScript", "React & Redux"]}  
+               backEnd = {["Express","MongoDB/Mongoose"]}         
+           />
            <Project
                title = "iRecommend-App"
                demoLink="https://irecommend-app.herokuapp.com/"
